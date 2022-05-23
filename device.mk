@@ -303,8 +303,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_mido
 
 # LiveDisplay
-#PRODUCT_PACKAGES += \
-#    vendor.lineage.livedisplay@2.0-service.xiaomi_mido
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.xiaomi_mido
 
 # LMKD
 # Enable stats logging in LMKD
@@ -378,7 +378,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.rc \
     init.qcom.sh \
-    init.qcom.usb.rc \
+    init.mido.usb.rc \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
     init.parts.rc \
@@ -426,7 +426,7 @@ PRODUCT_PACKAGES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.0-service.mido
 
 # vndservicemanager
 PRODUCT_PACKAGES += \
