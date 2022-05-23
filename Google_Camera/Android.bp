@@ -1,6 +1,6 @@
 android_app_import {
-    name: "GoogleCamera",
-    apk: "product/priv-app/GoogleCamera/GoogleCamera.apk",
+    name: "Google_Camera",
+    apk: "product/priv-app/Google_Camera/Google_Camera.apk",
     presigned: true,
     dex_preopt: {
         enabled: false,
