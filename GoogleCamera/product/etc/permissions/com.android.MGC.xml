@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.MGC">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+    </privapp-permissions>
+
+</permissions>

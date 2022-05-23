@@ -159,7 +159,8 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libcamshim \
     libmm-qcamera \
-    libui_shim
+    libui_shim \
+    GoogleCamera
 
 # Component overrides
 PRODUCT_COPY_FILES += \
