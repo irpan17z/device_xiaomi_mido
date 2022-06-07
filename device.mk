@@ -162,7 +162,7 @@ PRODUCT_PACKAGES += \
     libcamshim \
     libmm-qcamera \
     libui_shim \
-    Google_Camera
+    GrapheneOSCamera
 
 # Component overrides
 PRODUCT_COPY_FILES += \
